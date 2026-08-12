@@ -1,0 +1,13 @@
+{
+  "project_name": "Doña Félix POS Backend",
+  "language": "PHP",
+  "framework": "Symfony",
+  "source_directories": ["src/Controller", "src/Service"],
+  "ollama": {
+    "model": "qwen2.5-coder:7b",
+    "endpoint": "http://localhost:11434"
+  },
+  "sdk": {
+    "port": 9000
+  }
+}

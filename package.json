@@ -1,0 +1,21 @@
+{
+  "name": "qa-architect",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "dashboard"
+  ],
+  "scripts": {
+    "build": "pnpm --filter @qa-architect/dashboard build && pnpm --filter @qa-architect/cli build",
+    "dev:dashboard": "pnpm --filter @qa-architect/dashboard dev",
+    "dev:cli": "pnpm --filter @qa-architect/cli dev",
+    "install:all": "pnpm install"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

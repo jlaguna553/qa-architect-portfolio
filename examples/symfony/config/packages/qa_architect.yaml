@@ -1,0 +1,5 @@
+qa_architect:
+  storage_dir: '%kernel.project_dir%'
+  server_endpoint: 'http://localhost:9000'
+  write_to_file: true
+  send_to_server: true
